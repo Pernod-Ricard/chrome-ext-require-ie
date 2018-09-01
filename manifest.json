@@ -1,0 +1,21 @@
+{
+  "name": "Pernod Ricard - Require IE",
+  "version": "1.0",
+  "description": "Prevents you from opening websites that require Internet Explorer.",
+  "permissions" : [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://prisma.pernod-ricard.com/*"],
+      "js": ["ContentScript.js"]
+    }
+  ],
+  "icons" : {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "manifest_version": 2
+}
