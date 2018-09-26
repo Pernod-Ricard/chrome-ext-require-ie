@@ -1,5 +1,5 @@
 document.body.innerHTML=`
-<br/>
+<br/><br/>
 <center>
   <h1>
     This website does not support Chrome. <br/>

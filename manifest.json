@@ -1,13 +1,106 @@
 {
   "name": "Pernod Ricard - Require IE",
+  "short_name": "PR-Req-IE",
   "version": "1.0",
-  "description": "Prevents you from opening websites that require Internet Explorer.",
+  "description": "Prevents Pernod Ricard employees you from opening websites that require Internet Explorer.",
   "permissions" : [
     "activeTab"
   ],
   "content_scripts": [
     {
-      "matches": ["*://prisma.pernod-ricard.com/*"],
+      "matches": ["*://172.26.121.25/businessobjects/enterprise115/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://bommpj/businessobjects/enterprise115/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://bommpj.mmpj.pernod-ricard.group/businessobjects/enterprise115/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap32/Wonderware/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap32.mmpj.pernod-ricard.group/Wonderware/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpligwap03/forms/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpligwap03.mmpj.pernod-ricard.group/forms/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/demandesdevins/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/demandesdevins/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/tauxservice/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/tauxservice/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/validationsanalysesvendanges/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/validationsanalysesvendanges/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap03/fichenego/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap03.mmpj.pernod-ricard.group/fichenego/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap03/fichenegotx/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap03.mmpj.pernod-ricard.group/fichenegotx/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap64/EditionCmdesReceptionnees/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap64.mmpj.pernod-ricard.group/EditionCmdesReceptionnees/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/contingents/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/contingents/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/SOSWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/SOSWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://apps.mmpj.pernod-ricard.com/fichesnavettes/*"],
       "js": ["ContentScript.js"]
     }
   ],
