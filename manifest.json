@@ -102,6 +102,14 @@
     {
       "matches": ["*://apps.mmpj.pernod-ricard.com/fichesnavettes/*"],
       "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwtse01/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwtse01.mmpj.pernod-ricard.group/*"],
+      "js": ["ContentScript.js"]
     }
   ],
   "icons" : {
