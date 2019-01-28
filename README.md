@@ -19,6 +19,6 @@ To create the "IE Protocol" you need to create following registry keys :
 [HKEY_CURRENT_USER\Software\Classes\ie\shell\open]
 
 [HKEY_CURRENT_USER\Software\Classes\ie\shell\open\command]
-@="cmd /C set myvar="%1" & call set myvar=%%myvar:ie:=%% & call start /separate iexplore %%myvar%% & exit"
+@="cmd /C set myvar=\"%1\" & call set myvar=%%myvar:ie:=%% & call start \"Opening of IE\" /d \"\" iexplore -noframemerging %%myvar%% & exit"
 </code></pre>
 *source : [https://stackoverflow.com/questions/40531374/open-internet-explorer-from-chrome-using-a-protocol-handler-ieurl](https://stackoverflow.com/questions/40531374/open-internet-explorer-from-chrome-using-a-protocol-handler-ieurl)*

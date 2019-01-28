@@ -110,6 +110,22 @@
     {
       "matches": ["*://frmmpreiwtse01.mmpj.pernod-ricard.group/*"],
       "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap72/jde/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap72.mmpj.pernod-ricard.group/jde/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap71/jde/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap71.mmpj.pernod-ricard.group/jde/*"],
+      "js": ["ContentScript.js"]
     }
   ],
   "icons" : {
