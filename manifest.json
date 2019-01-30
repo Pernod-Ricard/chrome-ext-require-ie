@@ -1,7 +1,7 @@
 {
   "name": "Pernod Ricard - Require IE",
   "short_name": "PR-Req-IE",
-  "version": "1.3",
+  "version": "1.4",
   "description": "Prevents Pernod Ricard employees from opening websites that require Internet Explorer.",
   "permissions" : [
     "activeTab"
@@ -125,6 +125,38 @@
     },
     {
       "matches": ["*://frmmpcogwap71.mmpj.pernod-ricard.group/jde/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frprgcogwap02/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frprgcogwap02.pernod-ricard.group/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap64/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap64.mmpj.pernod-ricard.group/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpreiwap16.mmpj.pernod-ricard.group/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frprgcogwap03/OCBWebService/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frprgcogwap03.pernod-ricard.group/OCBWebService/*"],
       "js": ["ContentScript.js"]
     }
   ],
