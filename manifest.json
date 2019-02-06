@@ -1,7 +1,7 @@
 {
   "name": "Pernod Ricard - Require IE",
   "short_name": "PR-Req-IE",
-  "version": "1.5",
+  "version": "1.6",
   "description": "Prevents Pernod Ricard employees from opening websites that require Internet Explorer.",
   "permissions" : [
     "activeTab"
