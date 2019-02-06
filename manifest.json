@@ -166,6 +166,18 @@
     {
       "matches": ["*://prisma.pernod-ricard.com/*"],
       "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://intraship.dhl.fr/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap56/*"],
+      "js": ["ContentScript.js"]
+    },
+    {
+      "matches": ["*://frmmpcogwap56.mmpj.pernod-ricard.group/*"],
+      "js": ["ContentScript.js"]
     }
   ],
   "icons" : {
