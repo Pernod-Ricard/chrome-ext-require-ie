@@ -1,7 +1,7 @@
 {
   "name": "Pernod Ricard - Require IE",
   "short_name": "PR-Req-IE",
-  "version": "1.6",
+  "version": "1.7",
   "description": "Prevents Pernod Ricard employees from opening websites that require Internet Explorer.",
   "permissions" : [
     "activeTab"
@@ -60,19 +60,7 @@
       "js": ["ContentScript.js"]
     },
     {
-      "matches": ["*://frmmpreiwap03/fichenego/*"],
-      "js": ["ContentScript.js"]
-    },
-    {
-      "matches": ["*://frmmpreiwap03.mmpj.pernod-ricard.group/fichenego/*"],
-      "js": ["ContentScript.js"]
-    },
-    {
-      "matches": ["*://frmmpreiwap03/fichenegotx/*"],
-      "js": ["ContentScript.js"]
-    },
-    {
-      "matches": ["*://frmmpreiwap03.mmpj.pernod-ricard.group/fichenegotx/*"],
+      "matches": ["*://apps.mmpj.pernod-ricard.com/fichesnego/*"],
       "js": ["ContentScript.js"]
     },
     {
